@@ -1,5 +1,5 @@
 html {
-  font-family: "Garamond", serif;
+  font-family: Helvetica, Sans-Serif;
 }
 
 .tableau-vis {
@@ -8,6 +8,25 @@ html {
 
 button:focus {
   outline: 0;
+}
+
+.performace-highlight {
+  font-size: 50px;
+  color: white;
+  padding: 0px;
+  margin: 0px;
+}
+
+.highlight-box {
+  background-color: #e97824;
+  border-color: #a59e96;
+  border-style: solid;
+}
+
+.performace-desc {
+  padding: 0px;
+  margin: 0px;
+  color: white;
 }
 
 .navbar .dropdown-menu .form-control {
