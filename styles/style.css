@@ -1,0 +1,27 @@
+html {
+  font-family: "Garamond", serif;
+}
+
+.tableau-vis {
+  width: 80%;
+}
+
+button:focus {
+  outline: 0;
+}
+
+.navbar .dropdown-menu .form-control {
+  width: 200px;
+  color: white;
+}
+
+#head-banner {
+  background-color: #114058;
+  height: 60px;
+}
+
+#head_logo {
+  margin-left: 150px;
+  height: 60px;
+  object-fit: cover;
+}
