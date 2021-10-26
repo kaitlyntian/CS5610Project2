@@ -48,11 +48,6 @@
                 src="/images/IDEA_logo_text.png"
             /></a>
           </li>
-          <li class="nav-item active">
-            <a class="h4 nav-link text-light mt-2" href="#"
-              >Home <span class="sr-only">(current)</span></a
-            >
-          </li>
           <li class="nav-item dir">
             <a class="h4 nav-link text-light mt-2" href="index.html">Report</a>
           </li>
@@ -60,6 +55,18 @@
             <a class="h4 nav-link text-light mt-2" href="feedback.html"
               >Feedbacks</a
             >
+          </li>
+        </ul>
+      </div>
+
+      <div class="navbar-collapse collapse w-100 order-2">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <button class="d-flex btn">
+              <a class="text-dark" href="./login.html" target="_blank"
+                >Login for Contact/Feedback</a
+              >
+            </button>
           </li>
         </ul>
       </div>
@@ -253,6 +260,71 @@
                 that when the writer goes onto their day's writing projects,
                 words are already flowing from their fingers.
               </td>
+              <td>
+                <button
+                  type="button"
+                  class="btn btn-primary"
+                  data-toggle="modal"
+                  data-target="#exampleModal"
+                  data-whatever="@fat"
+                >
+                  Edit or Delete message
+                </button>
+                <div
+                  class="modal fade"
+                  id="exampleModal"
+                  tabindex="-1"
+                  role="dialog"
+                  aria-labelledby="exampleModalLabel"
+                  aria-hidden="true"
+                >
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">
+                          Edit or Delete message
+                        </h5>
+                        <button
+                          type="button"
+                          class="close"
+                          data-dismiss="modal"
+                          aria-label="Close"
+                        >
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        <form>
+                          <div class="form-group">
+                            <label for="message-text" class="col-form-label"
+                              >Message:</label
+                            >
+                            <textarea
+                              class="form-control"
+                              id="message-text"
+                            ></textarea>
+                          </div>
+                        </form>
+                      </div>
+                      <div class="modal-footer">
+                        <button
+                          type="button"
+                          class="btn btn-secondary"
+                          data-dismiss="modal"
+                        >
+                          Close
+                        </button>
+                        <button type="button" class="btn btn-primary">
+                          Submit Edit
+                        </button>
+                        <button type="button" class="btn btn-primary">
+                          Delete Previous Message
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </td>
             </tr>
             <tr>
               <th scope="row">2</th>
@@ -339,7 +411,7 @@
               </td>
             </tr>
             <tr>
-              <th scope="row">10/25/2021</th>
+              <th scope="row">#3</th>
               <td>
                 A random paragraph can also be an excellent way for a writer to
                 tackle writers' block. Writing block can often happen due to
@@ -348,13 +420,78 @@
                 to begin, it can take down some of the issues that may have been
                 causing the writers' block in the first place.
               </td>
-              <td>the Bird</td>
+              <td>10/25/2021</td>
               <td>
                 It's not only writers who can benefit from this free online
                 tool. If you're a programmer who's working on a project where
                 blocks of text are needed, this tool can be a great way to get
                 that. It's a good way to test your programming and that the tool
                 being created is working well.
+              </td>
+              <td>
+                <button
+                  type="button"
+                  class="btn btn-primary"
+                  data-toggle="modal"
+                  data-target="#exampleModal"
+                  data-whatever="@fat"
+                >
+                  Edit or Delete message
+                </button>
+                <div
+                  class="modal fade"
+                  id="exampleModal"
+                  tabindex="-1"
+                  role="dialog"
+                  aria-labelledby="exampleModalLabel"
+                  aria-hidden="true"
+                >
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">
+                          Edit or Delete message
+                        </h5>
+                        <button
+                          type="button"
+                          class="close"
+                          data-dismiss="modal"
+                          aria-label="Close"
+                        >
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        <form>
+                          <div class="form-group">
+                            <label for="message-text" class="col-form-label"
+                              >Message:</label
+                            >
+                            <textarea
+                              class="form-control"
+                              id="message-text"
+                            ></textarea>
+                          </div>
+                        </form>
+                      </div>
+                      <div class="modal-footer">
+                        <button
+                          type="button"
+                          class="btn btn-secondary"
+                          data-dismiss="modal"
+                        >
+                          Close
+                        </button>
+                        <button type="button" class="btn btn-primary">
+                          Submit Edit
+                        </button>
+                        <button type="button" class="btn btn-primary">
+                          Delete Previous Message
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </td>
             </tr>
           </tbody>
