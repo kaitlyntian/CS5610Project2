@@ -2,7 +2,7 @@
   "name": "cs5610project2",
   "version": "1.0.0",
   "description": "Projecr 2 for CS5610",
-  "main": "script/index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -17,6 +17,11 @@
   },
   "homepage": "https://github.com/thq12345/CS5610Project2#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "prettier": "^2.4.1"
+  },
+  "devDependencies": {
+    "mongodb": "^4.1.3"
   }
 }
