@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ef00bef2-8aa4-4a4d-93b3-51516a824931" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/client/account-already-exist.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/login-error.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/feedback.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/feedback.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/script/feedback generator.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/script/feedback generator.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/script/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/temp.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="203sfLLWFrRr8CHyPvOU1gFgBAn" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Project 1" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="C:\Users\danny\OneDrive\Desktop\Fall 2021\Web Development\Github Repo\CS5610Project2-main-kaitlyn\node_modules\prettier" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\danny\OneDrive\Desktop\Fall 2021\Web Development\Github Repo\CS5610Project2-main-kaitlyn\client" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ef00bef2-8aa4-4a4d-93b3-51516a824931" name="Changes" comment="" />
+      <created>1635284707588</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1635284707588</updated>
+      <workItem from="1635284708844" duration="10474000" />
+      <workItem from="1635339718604" duration="7244000" />
+      <workItem from="1635348650451" duration="4932000" />
+      <workItem from="1635368447539" duration="8340000" />
+      <workItem from="1635454089394" duration="13000" />
+      <workItem from="1635454194255" duration="4044000" />
+      <workItem from="1635537437274" duration="5130000" />
+      <workItem from="1635613406459" duration="13389000" />
+      <workItem from="1635633358439" duration="697000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
