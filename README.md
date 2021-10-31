@@ -1,8 +1,6 @@
 # CS5610Project2
 Project 2 for CS5610
 
-* Author * Class Link * Project Objective * Screenshot * Instructions to build
-
 ### Author: [Tianhao Qu](https://thq12345.github.io/PersonalHomepage/), [Kaitlyn(Kaiwen) Tian](https://kaitlyntian.github.io/homepage/index.html)
 ### Objective
  The purpose of this project is to build a 2021 performance dashboard report feedback and login page for [IDEA, Northeastern's Student Accelerators](https://www.northeastern.edu/idea/) so we can continue push on the initiative of data-driven descion making, transparant, and open with communication org.
