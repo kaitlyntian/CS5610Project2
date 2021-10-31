@@ -10,6 +10,7 @@ Project 2 for CS5610
 * Install [node.js](https://nodejs.org/en/) to your machine
 * Unzip this project on your local machine and cd to this folder location
 * Run this following command
+    * npm i
     * npm install -g npm
     * npm install express -save
     * npm start
