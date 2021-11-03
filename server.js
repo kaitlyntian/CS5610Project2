@@ -67,6 +67,10 @@ async function run() {
 //Initialize MongoDB Connection
 run().catch(console.dir);
 
+let venturehighlight = require("./routes/mongodb_venturehighlight");
+
+app.use("/venturehighlight", venturehighlight);
+
 //Define Global Variables
 let username_global;
 let login_status = false;
