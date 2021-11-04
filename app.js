@@ -15,9 +15,6 @@ app.listen(port, () => {
     console.log(`Project running at ${port}`);
 });
 
-app.use(bodyParser.urlencoded({ extended: true }));
-app.use(express.static(path.join(__dirname, "/client")));
-
 // view engine setup
 app.set("views", path.join(__dirname, "views"));
 app.set("view engine", "pug");

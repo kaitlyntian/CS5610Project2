@@ -63,7 +63,7 @@ async function loadComments() {
             </button>
           </div>
           <div class="modal-body">
-            <form id="Comment Modification Form" action="http://127.0.0.1:3000/feedback-edit" method="POST">
+            <form id="Comment Modification Form" action="/feedback-edit" method="POST">
               <div class="form-group">
                 <label for="message-text" class="col-form-label">Subject:</label>
                 <textarea
@@ -82,7 +82,7 @@ async function loadComments() {
             <button class="btn btn-primary" type="submit" onclick="editFeedback(${count})">
               Edit
             </button>
-            <button class="btn btn-primary" type="submit" formaction="http://127.0.0.1:3000/feedback-delete" onclick="deleteFeedback(${count}, ${comment_text})">
+            <button class="btn btn-primary" type="submit" formaction="/feedback-delete" onclick="deleteFeedback(${count}, ${comment_text})">
               Delete
             </button>
           </div>
