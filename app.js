@@ -8,11 +8,11 @@ const bodyParser = require("body-parser");
 const indexRouter = require("./routes/index.js");
 const ventureHighlight = require("./routes/venture_highlight");
 
-const port = 3000;
+const port = process.env.PORT || 3000;
 const app = express();
 //Connection test
 app.listen(port, () => {
-    console.log(`Project running at http://localhost:${port}`);
+    console.log(`Project running at ${port}`);
 });
 
 app.use(bodyParser.urlencoded({ extended: true }));
