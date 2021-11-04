@@ -1,13 +1,11 @@
 {
-  "name": "Organized-Project2",
+  "name": "fix",
   "version": "1.0.0",
-  "description": "Project 2 for CS5610 Organized Version",
+  "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Tianhao Qu & Kaitlyn Tian",
-  "license": "MIT",
   "dependencies": {
     "body-parser": "^1.19.0",
     "cookie-parser": "^1.4.5",
@@ -20,5 +18,15 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.14"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaitlyntian/CS5610Project2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kaitlyntian/CS5610Project2/issues"
+  },
+  "homepage": "https://github.com/kaitlyntian/CS5610Project2#readme"
 }
