@@ -1,0 +1,24 @@
+{
+  "name": "Organized-Project2",
+  "version": "1.0.0",
+  "description": "Project 2 for CS5610 Organized Version",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Tianhao Qu & Kaitlyn Tian",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "prettier": "^2.4.1"
+  },
+  "devDependencies": {
+    "cookie-parser": "^1.4.5",
+    "dotenv": "^10.0.0",
+    "http-errors": "^1.8.0",
+    "mongodb": "^4.1.3",
+    "nodemon": "^2.0.14"
+  }
+}
