@@ -13,10 +13,10 @@
 * You then can find this project running on the your **http://localhost:3000/**
 
 ### Sample images
-![Report main Page](https://github.com/kaitlyntian/CS5610Project2-main-kaitlyn/blob/main/client/images/report_screenshot.png)
-![Login Page](https://github.com/kaitlyntian/CS5610Project2-main-kaitlyn/blob/main/client/images/login_screenshot.png)
-![Login Error Page](https://github.com/kaitlyntian/CS5610Project2-main-kaitlyn/blob/main/client/images/login_errorpage.png)
-![feedback Page](https://github.com/kaitlyntian/CS5610Project2-main-kaitlyn/blob/main/client/images/feedback_page.png?raw=true)
+![Report main Page](https://github.com/kaitlyntian/idea-report-feedback/blob/master/public/images/report_screenshot.png)
+![Login Page](https://github.com/kaitlyntian/idea-report-feedback/blob/master/public/images/login_screenshot.png)
+![Login Error Page](https://github.com/kaitlyntian/idea-report-feedback/blob/master/public/images/login_errorpage.png)
+![feedback Page](https://github.com/kaitlyntian/idea-report-feedback/blob/master/public/images/feedback_page.png)
 
 
 All the knowledge we have learnt building this project came from [Northeastern CS 5610 Web Development
