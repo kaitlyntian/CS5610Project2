@@ -1,10 +1,10 @@
 const express = require("express");
 const path = require("path");
 const cookieParser = require("cookie-parser");
-const logger = require("morgan");
-const { MongoClient } = require("mongodb");
+// const logger = require("morgan");
+// const { MongoClient } = require("mongodb");
 require("dotenv").config();
-const bodyParser = require("body-parser");
+// const bodyParser = require("body-parser");
 const indexRouter = require("./routes/index.js");
 const ventureHighlight = require("./routes/venture_highlight");
 
@@ -12,7 +12,7 @@ const port = process.env.PORT || 3000;
 const app = express();
 //Connection test
 app.listen(port, () => {
-    console.log(`Project running at ${port}`);
+  console.log(`Project running at ${port}`);
 });
 
 // view engine setup

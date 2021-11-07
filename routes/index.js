@@ -97,5 +97,4 @@ router.get("/comment-text-update", async function (req, res) {
   res.json(comment_json);
 });
 
-
 module.exports = router;

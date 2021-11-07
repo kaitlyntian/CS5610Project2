@@ -79,23 +79,15 @@ async function loadComments() {
               </div>
               <div class="modal-footer">
               <input type="hidden" name="originaltext" value="${text._id}" >
-            <button class="btn btn-primary" type="submit" onclick="editFeedback(${count})">
+            <button class="btn btn-primary" type="submit">
               Edit
             </button>
-            <button class="btn btn-primary" type="submit" formaction="/feedback-delete" onclick="deleteFeedback(${count}, ${comment_text})">
+            <button class="btn btn-primary" type="submit" formaction="/feedback-delete">
               Delete
             </button>
           </div>
             </form>
           </div>
-<!--          <div class="modal-footer">-->
-<!--            <button type="button" class="btn btn-primary">-->
-<!--              Edit-->
-<!--            </button>-->
-<!--            <button type="button" class="btn btn-primary">-->
-<!--              Delete-->
-<!--            </button>-->
-<!--          </div>-->
         </div>
       </div>
     </div>
@@ -104,23 +96,9 @@ async function loadComments() {
       commentsDiv.appendChild(tr);
       count += 1;
     }
-  } catch (e) {}
+  } catch (e) {
+    console.log(e);
+  }
 }
 
 loadComments();
-
-function deleteFeedback(location, comment_text) {
-  console.log("Delete Feedback Signal Received!" + location);
-  let id = document.querySelector(`#feedbackindex${location}`).remove();
-  let textbox = document.querySelector(`#feedbacktextbox${location}`).remove();
-  let date = document.querySelector(`#feedbackdate${location}`).remove();
-  let button = document.querySelector(`#editdeletebutton${location}`).remove();
-  let user = document.querySelector(`#userentry${location}`).remove();
-}
-
-function editFeedback(location) {
-  console.log("Edit Feedback Textbox Signal Received!" + location);
-  let textbox = document.querySelector(`#feedbacktextbox${location}`).innerHTML;
-  let subject = document.querySelector(`#userentry${location}`).innerHTML;
-  // console.log(document.querySelector("#textarea").innerHTML);
-}

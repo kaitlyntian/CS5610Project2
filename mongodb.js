@@ -1,4 +1,4 @@
-const router = require("./routes/index.js");
+// const router = require("./routes/index.js");
 const { MongoClient, ObjectId } = require("mongodb");
 // const app = express();
 require("dotenv").config();
@@ -34,7 +34,7 @@ function myDB() {
       subject: subject,
       comment: message,
     };
-    const execute = await feedback_database.insertOne(doc);
+    await feedback_database.insertOne(doc);
     console.log("Feedback Successfully Submitted!");
   };
 
@@ -65,7 +65,8 @@ function myDB() {
         subject: editedSubject,
       },
     };
-    const execute = await feedback_database.updateOne(query, updateDoc);
+    // const execute = await feedback_database.updateOne(query, updateDoc);
+    await feedback_database.updateOne(query, updateDoc);
     console.log("Comment successfully edited!");
     //Attempt to reload comments.
     myDB.getComments().catch(console.dir);
@@ -75,7 +76,7 @@ function myDB() {
     const feedback_database = project_database.collection("Feedback Box");
     const query = { _id: ObjectId(originalId) };
     console.log(query);
-    const execute = feedback_database.deleteOne(query);
+    await feedback_database.deleteOne(query);
     console.log("Comment successfully deleted!");
     //Attempt to reload comments.
     myDB.getComments().catch(console.dir);
@@ -90,7 +91,7 @@ function myDB() {
       username: username,
       password: password,
     };
-    const execute = await collection_info.insertOne(write_info);
+    await collection_info.insertOne(write_info);
     console.log("A Username Password Pair has been inserted successfully.");
   };
 
@@ -115,13 +116,16 @@ function myDB() {
         const comment_db = project_database.collection("Feedback Box");
         let comment_json = [];
 
-        const comment_retrieved = await comment_db
-          .find(query2)
-          .forEach(function (doc) {
-            comment_json.push(doc);
-          });
+        // const comment_retrieved = await comment_db
+        //   .find(query2)
+        //   .forEach(function (doc) {
+        //     comment_json.push(doc);
+        //   });
+        await comment_db.find(query2).forEach(function (doc) {
+          comment_json.push(doc);
+        });
 
-        const user_comment = res.redirect("/feedback");
+        res.redirect("/feedback");
 
         return comment_json;
       } else {
