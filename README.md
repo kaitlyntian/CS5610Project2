@@ -17,8 +17,7 @@ The purpose of this project is to build a 2021 performance dashboard report feed
 - Install [node.js](https://nodejs.org/en/) to your machine
 - Unzip this project on your local machine and cd to this folder location
 - Run this following command
-  - npm install -g npm
-  - npm install express -save
+  - npm install
   - npm start
 - You then can find this project running on the your **http://localhost:3000/**
 - To access admin account, the account username is "admin@admin", please contact us if you need the password. With admin account, you can view all users' comments and edit/delete them whatever you want.
