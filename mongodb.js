@@ -11,7 +11,6 @@ function myDB() {
 
   // MongoDB Connection URI
   const uri = process.env.MONGO_URL;
-
   myDB.establishConnection = async () => {
     // Create a new MongoClient
     const client = new MongoClient(uri);
