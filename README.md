@@ -38,7 +38,7 @@ https://www.youtube.com/watch?v=d8gvWh5A04U&ab_channel=kaitlyntian
 
 https://docs.google.com/presentation/d/1mxConZM5o330nVFRe7r0Qh7vZmKilQDqG0ZpRg0K_r0/edit?usp=sharing
 
-### License
+### MIT License
 Copyright (c) 2021 Tianhao Qu & Kaiwen Tian
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
