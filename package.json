@@ -29,8 +29,8 @@
     "type": "git",
     "url": "git+https://github.com/kaitlyntian/CS5610Project2.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Tianhao Qu and Kaitlyn Tian",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/kaitlyntian/CS5610Project2/issues"
   },
