@@ -61,3 +61,14 @@ SOFTWARE.
 
 All the knowledge we have learnt building this project came from [Northeastern CS 5610 Web Development
 Northeastern University Bay Area] (https://johnguerra.co/classes/webDevelopment_fall_2021/)
+
+<!-- Nathaniel's Code Review:
+- The structure of your route endpoints in you index.js file is really organized. I like how you define your get routes first
+and then your post routes. It makes it easier to visualize the AJAX calls from your frontend (with regards to the login, register
+and feedback pages).
+- There are snippets of commented code in some of your files, most of them in your mongodb.js file. May I suggest removing 
+your commented code that aren't being used and adding very brief comments to the code that's being used. It helps with understanding
+what your code does.
+- I really love how you utilized tableau to visualize the ventures data in your report page (index.html) as well how responsive the 
+data is in your report page (index.html). It would be really nice if you could explain how the tableau aspects in your web app 
+work. -->
